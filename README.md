@@ -7,8 +7,8 @@ This repository is dedicated to showcasing machine learning with FHE. It envesti
 ### Installation
 
 ```bash
-git clone [repository-url]
-cd [repository-name]
+git clone https://github.com/stanislav-chekmenev/pps_fhe_sentiment
+cd pps_fhe_sentiment
 ```
 Perform manual installation of Pytorch and Pytorch-Geometric to avoid conflicts with Concrete-ML library's dependencies.
 
