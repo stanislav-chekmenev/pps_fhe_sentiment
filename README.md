@@ -38,7 +38,7 @@ I ran several steps of data preprocessing and saved that data into `data/preproc
 
 ### How to run
 
-Before running anything one needs to download the preprocessed data folder. This folder contains embedded numpy arrays with train and test sets that are needed for training, but most importantly they are used for initialization of the model. Also there are subgraphs of the big graph of connected tweets. Those subgraphs are needed for the GNN vectorizer to predict for a newly created node. The data is located under this (link](https://drive.google.com/drive/folders/1WPjV2_LI7nGycK70L1j2a_qfYoXr3xef?usp=drive_link).
+Before running anything one needs to download the preprocessed data folder. This folder contains embedded numpy arrays with train and test sets that are needed for training, but most importantly they are used for initialization of the model. Also there are subgraphs of the big graph of connected tweets. Those subgraphs are needed for the GNN vectorizer to predict for a newly created node. The data is located under this [link](https://drive.google.com/drive/folders/1WPjV2_LI7nGycK70L1j2a_qfYoXr3xef?usp=drive_link).
 
 One can run the evaluation, executing `evaluate.py` script. One needs to have set up a WandB account, which is free for private use. The documentation how to do it is given on their [website](https://wandb.ai/site/). One has to run this command to execute the script:
 
