@@ -1,0 +1,12 @@
+method: bayes
+metric:
+  name: val_loss
+  goal: minimize
+parameters:
+  n_bits:
+    values: [2, 3]
+  max_depth:
+    values: [1, 2]
+  n_estimators:
+    min: 10
+    max: 50
