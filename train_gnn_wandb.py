@@ -57,7 +57,6 @@ def train_gnn(transformer_embeddings, labels, config) -> tuple:
     else:
         raise ValueError("Invalid model type. Choose 'MPNN' or 'GAT'.")
 
-    # Training loop
     criterion = CrossEntropyLoss()
     optimizer = Adam(model.parameters(), learning_rate)
 
